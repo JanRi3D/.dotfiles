@@ -1,0 +1,54 @@
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temp files
+*.swp
+*.swo
+*~
+.netrwhist
+
+# Logs
+*.log
+
+# Local configs that might contain sensitive info
+.config/hub
+.config/git/credentials
+.config/gcloud/*
+.config/chromium/
+.config/google-chrome/
+.config/mozilla/
+.config/pulse/
+.config/spotify/
+
+# SSH and GPG
+.ssh/
+.gnupg/
+
+# History files
+.*history
+.bash_history
+.zsh_history
+
+# Cache directories
+.cache/
+.npm/
+.yarn/
+
+# Local packages and dependencies
+node_modules/
+.pnpm-store/
+
+# IDE specific
+.idea/
+.vscode/
+*.sublime-*
+.project
+.settings/
+
+# Other potential sensitive data
+.env
+.env.*
+*.pem
+*.key
